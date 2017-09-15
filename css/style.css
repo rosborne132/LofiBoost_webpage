@@ -1,0 +1,260 @@
+html{
+  font-size: 16px;
+}
+
+
+body {
+  margin-top: 70px;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h6{
+  font-size: 1.1rem;
+}
+
+h5{
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+img{
+  height: auto;
+}
+
+
+/*--Headrer--*/
+.home {
+  height: 36rem;
+  width: 100%;
+  background-image: url("../img/coverPhoto.png");
+  opacity: 0.9;
+}
+
+.home h1{
+  font-size: 5rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  color: white;
+}
+
+
+
+/*--About--*/
+.about {
+  height: 23rem;
+  width: 100%;
+  padding-top: 1.4em;
+}
+
+.about img {
+  height: 40%;
+  width: 40%;
+}
+
+
+
+
+.video{
+  height: 26rem;
+}
+
+
+
+/*--Download--*/
+.download {
+  height: 21.75rem;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+
+
+/*--Contact--*/
+.contact {
+  height: 18.75rem;
+  padding: 1rem;
+}
+
+.links{
+  padding-top: 1rem;
+}
+
+.fa {
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  width: 3.75rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.4rem 0.1rem;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
+
+/*--Footer--*/
+footer {
+  width: 100%;
+  padding: 1em;
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:999px) {
+  /* In between Desktop and Tablet */
+
+.home{
+  height: auto;
+}
+
+.home h1{
+  font-size: 4.5rem;
+  color: black;
+  float: inherit;
+  padding-left: 2.5rem;
+}
+
+
+
+/*--About--*/
+.about {
+  height: 90%;
+  width: 100%;
+  padding-top: 1em;
+}
+
+
+
+/*--Download--*/
+.download {
+  height: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 1.3rem;
+}
+
+
+
+/*--Contact--*/
+.contact {
+  height: 100%;
+  padding: 1rem;
+}
+
+}
+
+
+
+@media screen and (min-width:375px) and (max-width:768px) {
+  /* Tablet */
+
+.home{
+  height: auto;
+}
+
+.home h1{
+  font-size: 3rem;
+  padding-left: 2rem;
+  color: black;
+  float: inherit;
+}
+
+
+
+/*--About--*/
+.about {
+  height: 90%;
+  padding-top: 1em;
+}
+
+
+
+/*--Download--*/
+.download {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*--Contact--*/
+.contact {
+  height: 100%;
+}
+
+.contact-left{
+  padding-bottom: 1rem;
+}
+}
+
+
+
+
+@media screen and (max-width:375px) {
+  /* Phone */
+
+.home{
+  height: auto
+}
+
+.home h1{
+  font-size: 2.5rem;
+  padding-right: 3rem;
+
+}
+
+/*--About--*/
+.about {
+  height: 90%;
+  padding-top: 1em;
+}
+
+
+
+/*--Download--*/
+.download {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*--Contact--*/
+.contact {
+  height: 100%;
+}
+
+.contact-left{
+  padding-bottom: 1rem;
+}
+
+
+}
