@@ -38,38 +38,48 @@ $(function() {
 
 
   //About
-  sr.reveal('.about', {
-    duration: 2000,
-    origin: 'bottom'
-  });
-
-
-
-  //Work
-  sr.reveal('.download', {
-    duration: 2000,
-    origin: 'bottom'
-  });
-
-
-
-  //Contact
-  sr.reveal('.contact h4', {
-    duration: 2000,
-    origin: 'bottom'
-  });
-
-  sr.reveal('.contact-left', {
+    sr.reveal('.about-left', {
     duration: 2000,
     origin: 'left',
     distance: '300px'
   });
 
-  sr.reveal('.contact-right', {
+  sr.reveal('.about-right', {
     duration: 2000,
     origin: 'right',
     distance: '300px'
     })
+  
+  
+  
+  //Video
+    sr.reveal('.video', {
+    duration: 2000,
+    origin: 'bottom'
+  });
+
+
+
+  //Download
+    sr.reveal('.download-left', {
+    duration: 2000,
+    origin: 'left',
+    distance: '300px'
+  });
+
+  sr.reveal('.download-right', {
+    duration: 2000,
+    origin: 'right',
+    distance: '300px'
+    })
+  
+  
+  
+  //Contact
+  sr.reveal('.contact', {
+    duration: 2000,
+    origin: 'bottom'
+  });
 
 
 
